@@ -8,15 +8,6 @@ export const OG_CHAIN_PARAMS = {
   nativeCurrency: { name: "OG", symbol: "OG", decimals: 18 },
   rpcUrls: ["https://evmrpc-testnet.0g.ai"],
   blockExplorerUrls: ["https://chainscan-galileo.0g.ai"],
-export const DEFAULT_CIRCLE_ADDR   = "0x295Ae789158CA0257780987De8A8236723275b33"; // e.g. "0xAbC123..."
-export const DEFAULT_PERSONAL_ADDR = "0x1BdDB10ECfFEE01AA253Ba697FBf66A922b6B03d"; // e.g. "0xDef456..."
-export const BASE_CHAIN_ID         = 8453;
-export const BASE_CHAIN_PARAMS = {
-  chainId: "0x2105",
-  chainName: "Base",
-  nativeCurrency: { name: "Ethereum", symbol: "ETH", decimals: 18 },
-  rpcUrls: ["https://mainnet.base.org"],
-  blockExplorerUrls: ["https://basescan.org"],
 };
 
 export const TOKENS = {
