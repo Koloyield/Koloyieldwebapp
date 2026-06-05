@@ -1,5 +1,5 @@
-export const DEFAULT_CIRCLE_ADDR   = ""; // e.g. "0xAbC123..."
-export const DEFAULT_PERSONAL_ADDR = ""; // e.g. "0xDef456..."
+export const DEFAULT_CIRCLE_ADDR   = "0x295Ae789158CA0257780987De8A8236723275b33"; // e.g. "0xAbC123..."
+export const DEFAULT_PERSONAL_ADDR = "0x1BdDB10ECfFEE01AA253Ba697FBf66A922b6B03d"; // e.g. "0xDef456..."
 export const BASE_CHAIN_ID         = 8453;
 export const BASE_CHAIN_PARAMS = {
   chainId: "0x2105",
