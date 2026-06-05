@@ -1,3 +1,13 @@
+export const DEFAULT_CIRCLE_ADDR = "0x2eb02c8b9733b240c6fa73ddf1b25f373199c56c"; // e.g. "0xAbC123..."
+export const DEFAULT_PERSONAL_ADDR =
+  "0x17282d6ad90e84e24ee68fe68fd01014d9b8d7b3"; // e.g. "0xDef456..."
+export const OG_CHAIN_ID = 16602;
+export const OG_CHAIN_PARAMS = {
+  chainId: "0x16602",
+  chainName: "0G-Galileo-Testnet",
+  nativeCurrency: { name: "OG", symbol: "OG", decimals: 18 },
+  rpcUrls: ["https://evmrpc-testnet.0g.ai"],
+  blockExplorerUrls: ["https://chainscan-galileo.0g.ai"],
 export const DEFAULT_CIRCLE_ADDR   = "0x295Ae789158CA0257780987De8A8236723275b33"; // e.g. "0xAbC123..."
 export const DEFAULT_PERSONAL_ADDR = "0x1BdDB10ECfFEE01AA253Ba697FBf66A922b6B03d"; // e.g. "0xDef456..."
 export const BASE_CHAIN_ID         = 8453;
@@ -10,8 +20,16 @@ export const BASE_CHAIN_PARAMS = {
 };
 
 export const TOKENS = {
-  USDC: { address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", decimals: 6,  symbol: "USDC" },
-  USDT: { address: "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2", decimals: 6,  symbol: "USDT" },
+  USDC: {
+    address: "0xad91A6CF90144244Ca9FBA4550B1372B04De8325",
+    decimals: 6,
+    symbol: "USDC",
+  },
+  USDT: {
+    address: "0xa356D12658B8D209F2e3FE5FF14b28c5fc5445e4",
+    decimals: 6,
+    symbol: "USDT",
+  },
 };
 
 // ─── Human-readable ABIs ──────────────────────────────────────────
